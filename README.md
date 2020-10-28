@@ -15,7 +15,7 @@ Then use `ActiveStorageUpload` as an Uppy plugin in your Javascript pack with We
 
 ```js
 const Uppy = require('@uppy/core')
-const ActiveStorageUpload = require('uppy-activestorage-upload')
+const ActiveStorageUpload = require('@excid3/uppy-activestorage-upload')
 
 const uppy = Uppy()
 uppy.use(ActiveStorageUpload, {
